@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: danilo/kubernetes-projeto2-dio:1.0
+        image: danilo/dio-criando-pipeline-deploy-gitlab-kubernets:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
